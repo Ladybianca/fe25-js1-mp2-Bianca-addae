@@ -1,4 +1,5 @@
 body {
+    background-color: #0000001a;
     position:relative;
 }
 
@@ -52,9 +53,6 @@ margin:20px;
     margin:10px;
 }
 
-body {
-    background-color: #0000001a;
-}
 
 
 aside {
