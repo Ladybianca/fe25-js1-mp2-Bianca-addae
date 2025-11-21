@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Miniuppgift 2</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="hero">
+        <h1>PIG DICE</h1>
+        <img
+          src=" https://images.stockcake.com/public/5/d/b/5db7d7e3-79de-40de-95cf-d6c02479f9aa_large/adorable-pink-pig-stockcake.jpg"
+          alt="Picture of a pig"
+        />
+
+        <h2 id="playerName">Player Name</h2>
+
+        <form id="player">
+          <input type="text" id="name" placeholder="Enter your name"  required/>
+          <button>Submit</button>
+        </form>
+      </section>
+
+
+  <!--Själva spelet -->
+
+    <div id="game">
+        <h2 id="totalPoint">Your total score is: 100p</h2>
+        <h2 id="roundPoint">Your round score is: 23p</h2>
+        <h3 id="roundCount">Your round Count is: 56 </h3>
+
+        <button id="btnGame2" >Freeze</button>
+        <button  id="btnGame1">Play</button> 
+        <p id ="restart"></p>
+    </div>
+
+        <!--Tärningsspelet-->
+    <div class="center">
+      <div id="dice">1</div>
+    </div>
+
+
+   <div id="btnCenter">
+    <button id="btnEl"></button>
+    </div>
+
+
+      <aside>
+        <h3>Instruktioner (Sv)</h3>
+        <p>
+          Slå tärningen så många gånger du vill i varje omgång och samla
+          poäng.<br />
+          Om du slår en etta förlorar du hela omgångens poäng och omgången
+          avslutas.<br />
+          Välj själv när du vill “frysa” då sparas omgångens poäng till din
+          total.<br />
+          Fortsätt spela tills du når 100 poäng och vinner spelet.<br />
+        </p>
+        <a href="https://stockcake.com/i/adorable-pink-pig_1892946_1249266">&#128055;</a>
+      
+      </aside>
+    </main>
+  </body>
+</html>
